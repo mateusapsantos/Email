@@ -1,37 +1,33 @@
-// variaveis
-let n1 = 7
-let n2 = 9
-const soma = n1 + n2 
+// variaveis para processamento do codigo
+let n1 = 7;
+let n2 = 9;
+const soma = n1 + n2;
 
 function somaTotal(n1, n2) {
-   const soma = n1 + n2
+  const soma = n1 + n2;
 
-   if (n1 < 3) {
-    return "numero invalido"
-   } else if (n2 >= 10) {
-    return "numero invalido"
-   }
-   return soma
+  if (n1 < 3) {
+    return "numero invalido";
+  } else if (n2 >= 10) {
+    return "numero invalido";
+  }
+  return soma;
 }
 //console.log (somaTotal(2, 2))
 
-const valueTotal = (n1, n2 ) => n1 + n2
-console.log (valueTotal(30, 30))
+const valueTotal = (n1, n2) => n1 + n2;
+console.log(valueTotal(30, 30));
 
-
-
-
-
-let produtos = [{
+let produtos = [
+  {
     nome: "hamburguer",
     preco: 30,
-    temRecheio: true 
-},
-{
+    temRecheio: true,
+  },
+  {
     nome: "carro",
-    preçco: 30.000,
-    temRoda: false
-}
-
-]
-console.log (produtos)
+    preçco: 30.0,
+    temRoda: false,
+  },
+];
+console.log(produtos);
